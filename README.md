@@ -16,11 +16,11 @@ This project involves creating a MiniShell, a command-line interpreter that read
 
 # Description of Code
 ## Command Execution Strategy and Pipe Management
-1. User input is read from the command line.
-2. The command is tokenized into a tline structure.
-3. The command is checked if it is an internal command (cd, jobs, fg, umask, exit) or external.
-  3.1. For internal commands: execute the respective function.
-  3.2. For external commands: handle pipes if needed, fork child processes, redirect input/output as necessary, and execute the command using execvp.
+- User input is read from the command line.
+- The command is tokenized into a tline structure.
+- The command is checked if it is an internal command (cd, jobs, fg, umask, exit) or external.
+  - For internal commands: execute the respective function.
+  - For external commands: handle pipes if needed, fork child processes, redirect input/output as necessary, and execute the command using execvp.
 
 ## Specific Data Structures
 **Tjobs**: Manages background processes with fields for process IDs, command line string, and statuses.
