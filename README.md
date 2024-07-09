@@ -9,10 +9,10 @@ This project involves creating a MiniShell, a command-line interpreter that read
 
 # Team Members
 
-| Name                  | URJC Email                        | GitHub Nickname              |
-|-----------------------|-----------------------------------|------------------------------|
-| Tarek Elshami Ahmed   | t.elshami.2021@alumnos.urjc.es    | [@TarekElshami](https://github.com/TarekElshami) |
-| Álvaro Serrano Rodrigo| a.serranor.2021@alumnos.urjc.es   | [@AlvaroS3rrano](https://github.com/AlvaroS3rrano) |
+| Name                        | GitHub Nickname              |
+|-----------------------|------------------------------|
+| Tarek Elshami Ahmed   | [@TarekElshami](https://github.com/TarekElshami) |
+| Álvaro Serrano Rodrigo | [@AlvaroS3rrano](https://github.com/AlvaroS3rrano) |
 
 # Description of Code
 ## Command Execution Strategy and Pipe Management
